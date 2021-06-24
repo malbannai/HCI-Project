@@ -68,8 +68,8 @@ File: Layout CSS
 
 /* Shout */
 .shout{}
-.shout figure{display:block; max-width:546px;/* same width as the image - contains the caption */}
-.shout figure img{}
+.shout figure{display:block; max-width:fit-content; /* same width as the image - contains the caption */}
+.shout figure img{height: 250px; max-width: max-content; width: 400px;}
 .shout figure figcaption{display:block; position:relative;}
 .shout figure figcaption a{display:block; position:relative; padding:15px; border:solid; border-width:0 1px 1px 1px;}
 .shout figure figcaption a::after{position:absolute; top:12px; right:15px; width:30px; height:30px; line-height:30px; font-family:"Font Awesome\ 5 Free"; font-weight:900; content:"\f105";/* fa-angle-right */ text-align:center; border-radius:50%;}
@@ -330,12 +330,12 @@ input:focus, textarea:focus, *:required:focus{border-color:#97A9BD !important;}
 .imgover, .imgover:hover::after{color:#FFFFFF;}
 
 .logoname a{color:#FFFFFF;}
-.logoname::first-letter, .logoname span{color:#97BDAB;}
+.logoname::first-letter, .logoname span{color:#7a7c83;}
 
 
 /* Rows */
 .row0, .row0 a{}
-.row1{color:#FFFFFF; background-color:#000000;}
+.row1{color:#FFFFFF; background-color:#192a5a;}
 .row2{color:#474747; background-color:#F4F4F4;}
 .row3{color:#474747; background-color:#FFFFFF;}
 .row4{color:#A5A6AA; background-color:#000000;}
