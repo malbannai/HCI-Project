@@ -53,7 +53,7 @@ File: Layout CSS
 .elements-three li, .elements-four li{margin-bottom:50px;}
 .elements-three li:nth-last-child(-n+3), .elements-four li:nth-last-child(-n+4){margin-bottom:0;}/* Removes bottom margin from the last line of items - margin is restored in the media queries when items stack */
 .elements-three li:nth-child(3n+1), .elements-four li:nth-child(4n+1){margin-left:0; clear:left;}/* Removes the need to add class="first" */
-.elements article{display:block; padding:30px 15px; border-radius:50px 0; text-align:center; max-width: 85%;margin: auto; }
+.elements article{display:block; padding:30px 15px; border-radius:50px 0; text-align:center; max-width: 85%;margin: auto; max-height: 500px;}
 .elements article *{margin:0 0 15px 0; padding:0; line-height:1;}
 .elements article i{width:60px; height:60px; line-height:60px; margin-bottom:30px; font-size:1.6rem; text-align:center; border-radius:50%;}
 .elements article .heading{font-size:1.2rem; font-weight:700;}
