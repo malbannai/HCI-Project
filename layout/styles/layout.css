@@ -17,7 +17,7 @@ File: Layout CSS
 .row0, .row0 a{}
 .row1, .row1 a{}
 .row2, .row2 a{}
-.row3, .row3 a{}
+.row3, .row3 a{  }
 .row4, .row4 a{}
 .row5, .row5 a{}
 
@@ -53,7 +53,7 @@ File: Layout CSS
 .elements-three li, .elements-four li{margin-bottom:50px;}
 .elements-three li:nth-last-child(-n+3), .elements-four li:nth-last-child(-n+4){margin-bottom:0;}/* Removes bottom margin from the last line of items - margin is restored in the media queries when items stack */
 .elements-three li:nth-child(3n+1), .elements-four li:nth-child(4n+1){margin-left:0; clear:left;}/* Removes the need to add class="first" */
-.elements article{display:block; padding:30px 15px; border-radius:50px 0; text-align:center;}
+.elements article{display:block; padding:30px 15px; border-radius:50px 0; text-align:center; max-width: 85%;margin: auto; }
 .elements article *{margin:0 0 15px 0; padding:0; line-height:1;}
 .elements article i{width:60px; height:60px; line-height:60px; margin-bottom:30px; font-size:1.6rem; text-align:center; border-radius:50%;}
 .elements article .heading{font-size:1.2rem; font-weight:700;}
@@ -67,7 +67,7 @@ File: Layout CSS
 #services .elements article{border-radius:0;}
 
 /* Shout */
-.shout{}
+.shout{max-width: 100%; display: flex; flex-wrap: wrap; justify-content:space-evenly;}
 .shout figure{display:block; max-width:fit-content; /* same width as the image - contains the caption */}
 .shout figure img{height: 250px; max-width: max-content; width: 400px;}
 .shout figure figcaption{display:block; position:relative;}
@@ -86,7 +86,7 @@ File: Layout CSS
 .team figure em{display:block; font-style:normal; font-size:.8rem;}
 
 /* Easy Pie Charts */
-.pr-charts{}
+.pr-charts{display: flex; flex-wrap: wrap; justify-content:space-evenly;}
 .pr-charts .pr-chart-ctrl{display:block; float:left; width:25%; min-height:200px;}
 .pr-charts .pr-chart-ctrl .pr-chart{display:block; position:relative; width:100%; margin:0 0 20px 0; text-align:center;}
 .pr-charts .pr-chart-ctrl .pr-chart canvas{display:block; margin:0 auto; padding:0; vertical-align:top;}
