@@ -67,7 +67,7 @@ File: Layout CSS
 #services .elements article{border-radius:0;}
 
 /* Shout */
-.shout{max-width: 100%; display: flex; flex-wrap: wrap; justify-content:space-evenly;}
+.shout{max-width: 100%; display: flex; justify-content:space-evenly; flex-wrap: wrap;}
 .shout figure{display:block; max-width:fit-content; /* same width as the image - contains the caption */}
 .shout figure img{height: 250px; max-width: max-content; width: 400px;}
 .shout figure figcaption{display:block; position:relative;}
@@ -497,10 +497,10 @@ table a, #comments a{background-color:inherit;}
 	#pageintro .heading{font-size:2rem;}
 
 	.sectiontitle{max-width:none;}
-	.shout figure, .team li, #latest > li{margin:0 auto 50px;}
+	.shout figure, .team li, #latest > li{margin:auto}
 	.team li, #latest li{max-width:348px;}/* Restrict the width to the one_third grid element */
 	.elements-three li:nth-last-child(-n+3), .elements-four li:nth-last-child(-n+4){margin-bottom:50px;}
-	.elements-three li:last-child, .elements-four li:last-child, .shout figure:last-child{margin-bottom:0;}
+	.elements-three li:last-child, .elements-four li:last-child, .shout figure:last-child{display: flex; justify-content:space-evenly;}
 
 	#ctdetails figure{margin-bottom:80px;}/* Gives good separation between the two elements */
 
