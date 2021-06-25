@@ -67,7 +67,7 @@ File: Layout CSS
 #services .elements article{border-radius:0;}
 
 /* Shout */
-.shout{max-width: 100%; display: flex; justify-content:space-evenly; flex-wrap: wrap;}
+.shout{}
 .shout figure{display:block; max-width:fit-content; /* same width as the image - contains the caption */}
 .shout figure img{height: 250px; max-width: max-content; width: 400px;}
 .shout figure figcaption{display:block; position:relative;}

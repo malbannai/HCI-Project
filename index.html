@@ -13,6 +13,31 @@
     .one_quarter {
       max-width: 80%;
     }
+
+    .webinar-grid {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    figure>img {
+      overflow: hidden;
+    }
+
+    .link-block {
+      position: relative;
+      width: 30%;
+      max-height: 300px;
+      text-align: center;
+      margin: 20px auto;
+      background-color: #f0f0f0;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      transition: all 0.2s cubic-bezier(.25, .8, .25, 1);
+      border-radius: 5px 5px 0 0;
+      text-decoration: none;
+    }
   </style>
 </head>
 
@@ -32,32 +57,6 @@
         <ul class="clear">
           <li class="active"><a href="index.html">Home</a></li>
           <li class="active"><a href="gcc.html">Gulf Portals</a></li>
-          <!-- <li><a class="drop" href="#">Pages</a>
-            <ul>
-              <li><a href="pages/gallery.html">Gallery</a></li>
-              <li><a href="pages/full-width.html">Full Width</a></li>
-              <li><a href="pages/sidebar-left.html">Sidebar Left</a></li>
-              <li><a href="pages/sidebar-right.html">Sidebar Right</a></li>
-              <li><a href="pages/basic-grid.html">Basic Grid</a></li>
-              <li><a href="pages/font-icons.html">Font Icons</a></li>
-            </ul>
-          </li> -->
-          <!-- <li><a class="drop" href="#">Dropdown</a>
-            <ul>
-              <li><a href="#">Level 2</a></li>
-              <li><a class="drop" href="#">Level 2 + Drop</a>
-                <ul>
-                  <li><a href="#">Level 3</a></li>
-                  <li><a href="#">Level 3</a></li>
-                  <li><a href="#">Level 3</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Level 2</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Link Text</a></li>
-          <li><a href="#">Link Text</a></li>
-          <li><a href="#">Link Text</a></li> -->
         </ul>
         <!-- ################################################################################################ -->
       </nav>
@@ -119,29 +118,30 @@
         </ul>
       </section>
       <!-- ################################################################################################ -->
-      <section class="group shout">
+      <section class="group shout ">
+        <div class="webinar-grid">
 
-        <figure class="one_half"><img
-            src="https://queensirt.org/wp-content/uploads/2021/01/jerene-jun-2020-recruitment-agency-istock.jpg"
-            alt="Employment">
-          <figcaption class="heading"><a href="employment.html">Employement in Kuwait</a></figcaption>
-        </figure>
-        <figure class="one_half"><img
-            src="https://technews352129055.files.wordpress.com/2018/12/traffic-management-system.jpg" alt="Traffic">
-          <figcaption class="heading"><a href="https://www.e.gov.kw/sites/kgoEnglish/Forms/TrafficLaw.pdf">Traffic
-              Law</a>
-          </figcaption>
-        </figure>
-        <figure class="one_half"><img src="https://compraracciones.com/wp-content/uploads/2021/04/insurance.jpg"
-            alt="insurance">
-          <figcaption class="heading"><a href="insurance.html">insurance</a></figcaption>
-        </figure>
-        <figure class="one_half"><img
-            src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/online-3412473_1920.jpeg?meGHIUut1mybIL3pem8eWqk34osmW3Zi&size=770:433"
-            alt="Education">
-          <figcaption class="heading"><a href="education.html">Education</a></figcaption>
-        </figure>
-
+          <figure class="one_half" class="link-block"><img
+              src="https://queensirt.org/wp-content/uploads/2021/01/jerene-jun-2020-recruitment-agency-istock.jpg"
+              alt="Employment">
+            <figcaption class="heading"><a href="employment.html">Employement in Kuwait</a></figcaption>
+          </figure>
+          <figure class="one_half" class="link-block"><img
+              src="https://technews352129055.files.wordpress.com/2018/12/traffic-management-system.jpg" alt="Traffic">
+            <figcaption class="heading"><a href="https://www.e.gov.kw/sites/kgoEnglish/Forms/TrafficLaw.pdf">Traffic
+                Law</a>
+            </figcaption>
+          </figure>
+          <figure class="one_half" class="link-block"><img
+              src="https://compraracciones.com/wp-content/uploads/2021/04/insurance.jpg" alt="insurance">
+            <figcaption class="heading"><a href="insurance.html">insurance</a></figcaption>
+          </figure>
+          <figure class="one_half" class="link-block"><img
+              src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/online-3412473_1920.jpeg?meGHIUut1mybIL3pem8eWqk34osmW3Zi&size=770:433"
+              alt="Education" style="overflow: hidden;">
+            <figcaption class="heading"><a href="education.html">Education</a></figcaption>
+          </figure>
+        </div>
       </section>
       <!-- ################################################################################################ -->
       <!-- / main body -->
